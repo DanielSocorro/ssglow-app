@@ -16,7 +16,7 @@
   text-align: center;
   position: relative;
 }
-.title::before{
+.title::before {
   content: '';
   width: 200px;
   height: 3px;
@@ -28,7 +28,7 @@
   transform: translateX(-50%);
 }
 .title::after {
-  content: '\f005';
+  content: '☆';
   font-family: FontAwesome;
   color:#dbdbdb;
   width: 50px;
