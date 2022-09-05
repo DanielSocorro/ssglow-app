@@ -11,4 +11,9 @@ export class AppComponent implements OnInit{
   constructor(){}
 
   ngOnInit() {}
+
+  url:string = "../assets/product-1.JPG";
+  changeImage(event:any) {
+    this.url = event.target.src;
   }
+}
