@@ -68,6 +68,7 @@
 .card {
   transition: all .2s ease-in-out;
   border-radius: 3px;
+  width: 75%;
 }
 
 .card:hover .cart-item {
@@ -129,7 +130,7 @@
 }
 
 .image img {
-  width: 75%;
+  width: 100%;
   padding: 26px;
 }
 
